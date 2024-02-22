@@ -1,0 +1,71 @@
+.gen-link {
+    right: 55px;
+    margin-top: -53px;
+    text-align: right;
+    float: right;
+	}
+
+.tooltip {
+  background: #000;
+  padding: 0 6px;
+  background: url("../i/question.png") transparent no-repeat;
+  cursor: pointer;
+  text-indent: -9999em;
+  width: 4px;
+  height: 16px;
+  border-bottom: none !important;
+  display: inline-block;
+}
+
+.tooltip .popup {
+  display: none;
+}
+
+#tooltip-popup {
+  position: absolute;
+  width: 400px;
+  z-index: 1000;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background: #fff;
+  color: #000;
+  padding:7px 5px 7px 15px;
+}
+
+#tooltip-popup .content {
+  width: 384px;
+  float: left;
+  font-size: 12px;
+  line-height:19px;
+}
+
+#tooltip-popup .content a{color:#000;font-size:12px;line-height:19px;}
+
+
+#tooltip-popup .close {
+  float: right;
+  font-size: 24px;
+  cursor: pointer;
+  line-height:11px;
+}
+
+.additional-servs label {
+  cursor: pointer;
+  display:inline;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.preview {display: inline-block;}
+.preview a {border-bottom: 1px dashed;text-decoration: none;}
+
+#fancybox-right-ico {
+right: 20px;
+left: auto;
+}
+#fancybox-left-ico {
+left: 20px;
+}
